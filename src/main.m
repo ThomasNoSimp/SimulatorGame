@@ -59,8 +59,6 @@
     [gameLabel setStringValue:@"Game is now running..."];
     [self.window.contentView addSubview:gameLabel];
     
-    // You can add more game UI elements here
-    // Example: A simple label to represent a game element
     NSTextField *gameElement = [[NSTextField alloc] initWithFrame:NSMakeRect(100, 100, 200, 30)];
     [gameElement setEditable:NO];
     [gameElement setBezeled:NO];
